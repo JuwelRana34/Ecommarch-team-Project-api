@@ -13,6 +13,9 @@ app.post('/post', (req, res) => {
 app.post('/ataurwd', (req, res) => {
     // ataur wd added this post req
 })
+app.get('postwdnew', (req, res) => {
+    // for get any data from ataur wd
+})
 app.get('postwd', (req, res) => {
     // for get any data from ataur wd
 })
