@@ -23,5 +23,10 @@ app.get('juael', (req, res) => {
     // hellow
 })
 
+app.get('/newget', (req, res) => 
+{
+    // update new one
+})
+
 module.exports = app;
 
