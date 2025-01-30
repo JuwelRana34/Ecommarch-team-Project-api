@@ -1,0 +1,35 @@
+{
+  "name": "backend-ecommarch-team-project",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/JuwelRana34/Ecommarch-team-Project-api#readme",
+  "bugs": {
+    "url": "https://github.com/JuwelRana34/Ecommarch-team-Project-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuwelRana34/Ecommarch-team-Project-api.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.5",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
+  }
+}
